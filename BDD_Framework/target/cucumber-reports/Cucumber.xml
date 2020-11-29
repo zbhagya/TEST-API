@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="12.671">
+    <testcase classname="End to End tests for Online Book store API" name="the Authorized user can Add a book." time="8.512">
+        <system-out>
+            <![CDATA[Given I am an authorized user...............................................passed
+Given A list of books are available.........................................passed
+When I add a book to my reading list........................................passed
+Then the book is added......................................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="End to End tests for Online Book store API" name="the Authorized user can Remove a book." time="3.592">
+        <system-out>
+            <![CDATA[Given I am an authorized user...............................................passed
+Given A list of books are available.........................................passed
+When I add a book to my reading list........................................passed
+When I remove a book from my reading list...................................passed
+Then the book is removed....................................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

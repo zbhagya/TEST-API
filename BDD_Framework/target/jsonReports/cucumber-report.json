@@ -1,0 +1,161 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 5,
+        "name": "User generates token for Authorisation",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6830691900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am an authorized user",
+            "match": {
+              "location": "stepDefinition.stepDefinition.i_am_an_authorized_user()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-20T06:12:58.240Z",
+        "line": 8,
+        "name": "the Authorized user can Add a book.",
+        "description": "",
+        "id": "end-to-end-tests-for-online-book-store-api;the-authorized-user-can-add-a-book.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 795113300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "A list of books are available",
+            "match": {
+              "location": "stepDefinition.stepDefinition.a_list_of_books_are_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 693148200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I add a book to my reading list",
+            "match": {
+              "location": "stepDefinition.stepDefinition.i_add_a_book_to_my_reading_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 58803600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the book is added",
+            "match": {
+              "location": "stepDefinition.stepDefinition.the_book_is_added()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 5,
+        "name": "User generates token for Authorisation",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 707298000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am an authorized user",
+            "match": {
+              "location": "stepDefinition.stepDefinition.i_am_an_authorized_user()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-20T06:13:06.767Z",
+        "line": 13,
+        "name": "the Authorized user can Remove a book.",
+        "description": "",
+        "id": "end-to-end-tests-for-online-book-store-api;the-authorized-user-can-remove-a-book.",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 749991400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "A list of books are available",
+            "match": {
+              "location": "stepDefinition.stepDefinition.a_list_of_books_are_available()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 701208500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I add a book to my reading list",
+            "match": {
+              "location": "stepDefinition.stepDefinition.i_add_a_book_to_my_reading_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 735840700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I remove a book from my reading list",
+            "match": {
+              "location": "stepDefinition.stepDefinition.i_remove_a_book_from_my_reading_list()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 695663000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "the book is removed",
+            "match": {
+              "location": "stepDefinition.stepDefinition.the_book_is_removed()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "End to End tests for Online Book store API",
+    "description": "Description : The purpose of this tests are to cover Authorized user is able to add and remove a book in list/cart ",
+    "id": "end-to-end-tests-for-online-book-store-api",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Validate_Customer_Shopping.feature",
+    "tags": []
+  }
+]
